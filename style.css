@@ -1,0 +1,29 @@
+.f1{
+    border: 2px;
+    background-color: aqua;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+.f2{
+    border: 2px;
+    background-color: rgb(242, 255, 0);
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    text-align: center;
+    margin-inline-start: 10px;
+}
+.f3{
+    border: 2px;
+    background-color: rgb(255, 0, 200);
+    width: 200px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+body{
+    display: flex;
+    display: inline-flex;
+}
