@@ -88,7 +88,7 @@ select 5-5 'sub';
 select 5/5 'div';
 
 --mathmatical functions
-select (*) "Total Clients" from from client_master;
+select (*) "Total Clients" from client_master;
 select max(Baldue) "max Bal" from client_master;
 select min(Baldue) "min Bal" from client_master;
 select avg(Baldue) "avg Bal" from client_master;
@@ -99,3 +99,11 @@ select ceil(3.33);
 select ceil(3.99);
 select round(3.33);
 select round(3.99);
+
+--delete record
+delete from client_master;
+delete from client_master where name="chhaya";
+
+--Update record
+update client_master set city='Surat';
+update client_master set city='Mumbai' where name='chhaya';
